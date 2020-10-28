@@ -12,16 +12,22 @@
 		B9018AAD25448CCF003B05D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9018AAB25448CCF003B05D4 /* Main.storyboard */; };
 		B9018AAF25448CD4003B05D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9018AAE25448CD4003B05D4 /* Assets.xcassets */; };
 		B9018AB225448CD4003B05D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9018AB025448CD4003B05D4 /* LaunchScreen.storyboard */; };
+		B9018ABA25448D6F003B05D4 /* requirmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9018AB925448D6F003B05D4 /* requirmentViewController.swift */; };
+		B9FB659225449E2300855665 /* allflatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB659125449E2200855665 /* allflatsViewController.swift */; };
+		B9FB65942544AD8200855665 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB65932544AD8200855665 /* detailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9018AA425448CCF003B05D4 /* property.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = property.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9018AA425448CCF003B05D4 /* The Brokery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Brokery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9018AA725448CCF003B05D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9018AA925448CCF003B05D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9018AAC25448CCF003B05D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B9018AAE25448CD4003B05D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9018AB125448CD4003B05D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9018AB325448CD4003B05D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9018AB925448D6F003B05D4 /* requirmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requirmentViewController.swift; sourceTree = "<group>"; };
+		B9FB659125449E2200855665 /* allflatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allflatsViewController.swift; sourceTree = "<group>"; };
+		B9FB65932544AD8200855665 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,7 @@
 		B9018AA525448CCF003B05D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9018AA425448CCF003B05D4 /* property.app */,
+				B9018AA425448CCF003B05D4 /* The Brokery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +63,9 @@
 				B9018AA725448CCF003B05D4 /* AppDelegate.swift */,
 				B9018AA925448CCF003B05D4 /* ViewController.swift */,
 				B9018AAB25448CCF003B05D4 /* Main.storyboard */,
+				B9FB65932544AD8200855665 /* detailsViewController.swift */,
+				B9FB659125449E2200855665 /* allflatsViewController.swift */,
+				B9018AB925448D6F003B05D4 /* requirmentViewController.swift */,
 				B9018AAE25448CD4003B05D4 /* Assets.xcassets */,
 				B9018AB025448CD4003B05D4 /* LaunchScreen.storyboard */,
 				B9018AB325448CD4003B05D4 /* Info.plist */,
@@ -81,7 +90,7 @@
 			);
 			name = property;
 			productName = property;
-			productReference = B9018AA425448CCF003B05D4 /* property.app */;
+			productReference = B9018AA425448CCF003B05D4 /* The Brokery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9018A9F25448CCF003B05D4 /* Build configuration list for PBXProject "property" */;
+			buildConfigurationList = B9018A9F25448CCF003B05D4 /* Build configuration list for PBXProject "The Brokery" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9FB65942544AD8200855665 /* detailsViewController.swift in Sources */,
+				B9018ABA25448D6F003B05D4 /* requirmentViewController.swift in Sources */,
+				B9FB659225449E2300855665 /* allflatsViewController.swift in Sources */,
 				B9018AAA25448CCF003B05D4 /* ViewController.swift in Sources */,
 				B9018AA825448CCF003B05D4 /* AppDelegate.swift in Sources */,
 			);
@@ -286,8 +298,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = property.com.property;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = property.com.TheBrokery;
+				PRODUCT_NAME = "The Brokery";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,8 +315,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = property.com.property;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = property.com.TheBrokery;
+				PRODUCT_NAME = "The Brokery";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9018A9F25448CCF003B05D4 /* Build configuration list for PBXProject "property" */ = {
+		B9018A9F25448CCF003B05D4 /* Build configuration list for PBXProject "The Brokery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9018AB425448CD4003B05D4 /* Debug */,
